@@ -28,7 +28,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="535" width="343" height="21"/>
+                                    <rect key="frame" x="16" y="463" width="343" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5Y-gB-FQw">
@@ -37,7 +37,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="572" width="343" height="21"/>
+                                    <rect key="frame" x="16" y="500" width="343" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpF-9E-7TE">
@@ -46,7 +46,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="498" width="343" height="21"/>
+                                    <rect key="frame" x="16" y="426" width="343" height="21"/>
                                 </variation>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iEd-mI-TG7">
@@ -63,6 +63,15 @@
                                     <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 </variation>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7L1-Ec-RPY">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="529" width="343" height="81"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -72,6 +81,7 @@
                                 <exclude reference="h5Y-gB-FQw"/>
                                 <exclude reference="PpF-9E-7TE"/>
                                 <exclude reference="iEd-mI-TG7"/>
+                                <exclude reference="7L1-Ec-RPY"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -81,6 +91,7 @@
                                 <include reference="h5Y-gB-FQw"/>
                                 <include reference="PpF-9E-7TE"/>
                                 <include reference="iEd-mI-TG7"/>
+                                <include reference="7L1-Ec-RPY"/>
                             </mask>
                         </variation>
                     </view>
@@ -89,6 +100,7 @@
                         <outlet property="breedLabel" destination="h5Y-gB-FQw" id="u5C-Vy-5c1"/>
                         <outlet property="myImageView" destination="YFz-5S-7Pj" id="vIR-JT-uzv"/>
                         <outlet property="nameLabel" destination="PpF-9E-7TE" id="Eug-EX-F1l"/>
+                        <outlet property="randomFactLabel" destination="7L1-Ec-RPY" id="Wnz-g5-ZHj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
