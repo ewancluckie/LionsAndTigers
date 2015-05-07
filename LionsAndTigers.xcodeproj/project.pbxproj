@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		787C7B841AD264CF0034479B /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C7B831AD264CF0034479B /* Lion.swift */; };
+		787C7B861AD294650034479B /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C7B851AD294650034479B /* LionCub.swift */; };
 		78A191821A99672F00F235F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A191811A99672F00F235F6 /* AppDelegate.swift */; };
 		78A191841A99672F00F235F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A191831A99672F00F235F6 /* ViewController.swift */; };
 		78A191871A99672F00F235F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A191851A99672F00F235F6 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		787C7B831AD264CF0034479B /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
+		787C7B851AD294650034479B /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 		78A1917C1A99672F00F235F6 /* LionsAndTigers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionsAndTigers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A191801A99672F00F235F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A191811A99672F00F235F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				78A191811A99672F00F235F6 /* AppDelegate.swift */,
 				78A191831A99672F00F235F6 /* ViewController.swift */,
 				78A191A11A9969AF00F235F6 /* Tiger.swift */,
+				787C7B831AD264CF0034479B /* Lion.swift */,
+				787C7B851AD294650034479B /* LionCub.swift */,
 				78A191851A99672F00F235F6 /* Main.storyboard */,
 				78A191881A99672F00F235F6 /* Images.xcassets */,
 				78A1918A1A99672F00F235F6 /* LaunchScreen.xib */,
@@ -258,6 +264,8 @@
 				78A191841A99672F00F235F6 /* ViewController.swift in Sources */,
 				78A191A21A9969AF00F235F6 /* Tiger.swift in Sources */,
 				78A191821A99672F00F235F6 /* AppDelegate.swift in Sources */,
+				787C7B861AD294650034479B /* LionCub.swift in Sources */,
+				787C7B841AD264CF0034479B /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +461,7 @@
 				78A1919D1A99672F00F235F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78A1919E1A99672F00F235F6 /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +470,7 @@
 				78A191A01A99672F00F235F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
